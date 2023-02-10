@@ -9,3 +9,5 @@
 4. **Facade Pattern** - The intent of the Facade pattern is to provide a high-level interface (properties and methods) that makes a subsystem or toolkit easy to use for the client, by hiding the complex functionality in one or more subsystems.
 
 5. **Command Pattern** - The idea of the command pattern is to take the different operations that you want something to do and encapsulate them into individual commands that have a perform and an undo method.
+
+6. **Single Responsibility Principle** - The idea of Single Responsibility Principle is that all of your classes, modules, functions, anything inside of your code that can be put into a single part, should have one single responsibility and that means it should have only one reason to change.
