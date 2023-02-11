@@ -11,3 +11,5 @@
 5. **Command Pattern** - The idea of the command pattern is to take the different operations that you want something to do and encapsulate them into individual commands that have a perform and an undo method.
 
 6. **Single Responsibility Principle** - The idea of Single Responsibility Principle is that all of your classes, modules, functions, anything inside of your code that can be put into a single part, should have one single responsibility and that means it should have only one reason to change.
+
+7. **Open Closed Principle** - The Open Closed Principle states that software entities (classes, modules, functions etc.) should be open for extension, but closed for modification.This means that a class/function/module should be able to be extended in functionality without having to go into the class and change it. Essentially you shouldn't need to change existing code to add new functionality and instead should only have to add new code.
