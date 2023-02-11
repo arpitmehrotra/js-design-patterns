@@ -15,3 +15,5 @@
 7. **Open Closed Principle** - The Open Closed Principle states that software entities (classes, modules, functions etc.) should be open for extension, but closed for modification.This means that a class/function/module should be able to be extended in functionality without having to go into the class and change it. Essentially you shouldn't need to change existing code to add new functionality and instead should only have to add new code.
 
 8. **Liskov Substitution Principle** - This principle states that anywhere you use one type of class, you need to be able to use all type of subclasses of that class and it should work just fine.
+
+9. **Interface Segregation Principle** - The main idea of the interface segregation principle is that any class that implements an interface must use all functions/properties of the interface. JavaScript does not have actual interfaces, but a class inheritance structure is similar enough. This means that any class that inherits from another class needs to use all of the methods/properties from the base class. This encourages writing small classes instead of large classes.
